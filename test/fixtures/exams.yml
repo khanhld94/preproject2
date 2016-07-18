@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: false
+  spent_time: 2016-07-18 10:22:31
+  score: 1
+
+two:
+  status: false
+  spent_time: 2016-07-18 10:22:31
+  score: 1

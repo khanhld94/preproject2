@@ -1,0 +1,59 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.alert-notice{
+  @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
+}
+
+.alert-alert {
+  @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
+}
+
+$gray-medium-light: #eaeaea;
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.img-center {
+  margin: 0 auto;
+}
+.jumbotron {
+  background: #000 url("training.jpg") center center;
+  a{
+    color: #fff;
+    text-decoration: bold;
+  }
+  a:hover{
+    color: #666;
+    text-decoration: none;
+  }
+}
+.row {
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.wrapper {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#mainNav .container-fluid {
+  padding-left: 70px;
+  padding-right: 70px;
+  .navbar-header {
+    padding-top: 5px;
+  }
+}
+.collapse navbar-collapse a:hover {
+  text-decoration: none;
+  background-color: #f1f1f1;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
